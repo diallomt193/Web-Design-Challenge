@@ -8,8 +8,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Humidity</title>
 </head>
 <body>
     <div class="navigation">
@@ -25,17 +25,17 @@
                             PLOTS
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="Visualizations/temperature.html">Max Temperature</a>
-                            <a class="dropdown-item" href="Visualizations/humidity.html">Humidity</a>
-                            <a class="dropdown-item" href="Visualizations/cloudiness.html">Cloudiness</a>
-                            <a class="dropdown-item" href="Visualizations/wind.html">Wind Speed</a>
+                            <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="wind.html">Wind Speed</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Visualizations/comparison.html">COMPARISON</a>
+                        <a class="nav-link" href="comparison.html">COMPARISON</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Visualizations/data.html">DATA</a>
+                        <a class="nav-link" href="data.html">DATA</a>
                     </li>
                 </ul>
             </div>
@@ -44,19 +44,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-7 col-md-12">
-                <div class="box" style="padding-bottom: 20px;">
-                    <h3 class="title">Summary: Latitude vs. X </h3>
+                <div class="box">
+                    <h3 class="title">LATITUDE VS. HUMIDITY</h3>
                     <hr>
-                    <img src="Assets/images/Latitude vs Max Temperature.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-                    <p> The purpose of this project was to analyze how weather across 500+ cities around the world
-                      changes as you get closer to the equator. To accomplish this analysis, we used OpenWeatherMap API 
-                      to assemble the dataset in order to create a representative model of weather across world cities.</p>
-                      <br>
-                    <p> Once the dataset was assembled, Matplotlib was used to build a series of plots to showcase the relationships between several variables
-                      of weather vs. latitude. Some of the factors we looked at in this case include temperature, cloudiness, humidity and wind speed.</p>
-                      <br>
-                    <p> To showcase the analysis completed, we provided data and visualizations as part of the analysis, including explanations and descriptions
-                      of trends and correlations.</p>
+                    <img src="../Assets/images/Latitude vs Humidity.png" class="vizualization rounded float-left" alt="Humidity Graph">
+                    <p>On this graph we can see that as the latitude increases, the humidity increases as well.<br><br><br><br><br><br></p>
                 </div>
             </div>
             <div class="col-lg-5 col-md-12">
@@ -67,29 +59,28 @@
                         <div class="row" style="padding-bottom: 70px;">
                             <div class="col-6">
                                 <div class="title">Latitude vs. Max Temperature</div>
-                                <a href="Visualizations/temperature.html">
-                                <img class="panel" src="Assets/images/Latitude vs Max Temperature.png" alt="Max Temperature Graph">
+                                <a href="temperature.html">
+                                  <img class="panel" src="../Assets/images/Latitude vs Max Temperature.png" alt="Max Temperature Graph">
                                 </a>
                             </div>
                             <div class="col-6">
                                 <div class="title">Latitude vs. Humidity</div>
-                                <a href="Visualizations/humidity.html">
-                                <img class="panel" src="Assets/images/Latitude vs Humidity.png" alt="Humidity Graph">
+                                <a href="humidity.html">
+                                    <img class="panel" src="../Assets/images/Latitude vs Humidity.png" alt="Humidity Graph">
                                 </a>
                             </div>
                         </div>
                         <div class="row" style="padding-bottom: 70px;">
                             <div class="col-6">
                                 <div class="title">Latitude vs. Cloudiness</div>
-                                <a href="Visualizations/cloudiness.html">
-                                <img class="panel" src="Assets/images/Latitude vs Cloudiness.png" alt="Cloudiness Graph">
+                                <a href="cloudiness.html">
+                                    <img class="panel" src="../Assets/images/Latitude vs Cloudiness.png" alt="Cloudiness Graph">
                                 </a>
-                            
                             </div>
                             <div class="col-6">
                                 <div class="title">Latitude vs. Wind Speed</div>
-                                <a href="Visualizations/wind.html">
-                                    <img class="panel" src="Assets/images/Latitude vs Max Wind Speed.png" alt="Wind Speed Graph">
+                                <a href="wind.html">
+                                    <img class="panel" src="../Assets/images/Latitude vs Max Wind Speed.png" alt="Wind Speed Graph">
                                 </a>
                             </div>
                         </div>
@@ -97,6 +88,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
 </body>
 </html>
