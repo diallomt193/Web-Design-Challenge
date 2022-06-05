@@ -27,8 +27,6 @@ This is a visual showing the csv file converted to html using pandas
 ![](Screenshots/Screen%20Shot%202022-06-04%20at%206.12.46%20PM.png)
 
 
-#Challenges:
-The challenge that I faced with this homework was getting the images to load on the deployed app. As you can see, it can open on my default browser from vs code but isn't loading properly on the app. I had help from my professor and TA both but none of them could see the reason why it wouldn't load properly on the app. I added these screenshots to my repo to show that the website was created and showing the images for each page.
 
 
 You can use the [editor on GitHub](https://github.com/diallomt193/Web-Design-Challenge/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
